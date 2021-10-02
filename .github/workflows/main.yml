@@ -10,7 +10,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: actions/hello-world-docker-action-latif@v1.0.1
+        uses: actions/hello-world-latif@v1.0.1
         with:
           who-to-greet: 'Latif Hello World test'
       # Use the output from the `hello` step
