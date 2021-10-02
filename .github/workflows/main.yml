@@ -9,6 +9,7 @@ jobs:
     name: A job to say hello
     steps:
       - name: Hello World Latif
+        id: hello
         uses: vedicsoftcts/hello-world-docker-action-latif@v1.0.1
         with:
           who-to-greet: 'Latif Hello World test'
